@@ -31,16 +31,16 @@ public class ZhiHuMain {
 			System.out.println(zhiHuPic);
 		}
 		System.out.println("");
-		//定义下载路径
+		// 定义下载路径
 		String addr = "D:/知乎爬虫/";
-		System.out.println("即将开始下载图片到"+addr+myZhihu.getQuestion());
+		System.out.println("即将开始下载图片到" + addr + myZhihu.getQuestion());
 		System.out.println("");
 		System.out.println("开始下载................");
 		System.out.println("");
 		// 把图片下载到本地文件夹
 		FileReaderWriter.downLoadPics(myZhihu, addr);
 		System.out.println("");
-		System.out.println("图片下载完毕，请到"+addr+myZhihu.getQuestion()+"里去看看吧！！！");
+		System.out.println("图片下载完毕，请到" + addr + myZhihu.getQuestion() + "里去看看吧！！！");
 
 		/**
 		 * 爬知乎推荐的内容
